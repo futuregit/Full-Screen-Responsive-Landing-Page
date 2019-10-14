@@ -62,4 +62,16 @@ p {
     font-family: sans-serif;
 }
 
-@media screen and (min)
+@media screen and (max-width: 768px) {
+    .intro-title {
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;;
+    }
+}
